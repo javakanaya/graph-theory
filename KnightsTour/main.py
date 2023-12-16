@@ -81,14 +81,12 @@ if __name__ == "__main__":
     N = 8
     start_x, start_y = 0, 0
 
-    # Create a figure and axis
     fig, ax = plt.subplots(figsize=(10, 10))
     ax.set_xticks(range(N))
     ax.set_yticks(range(N))
     ax.set_xticklabels([])
     ax.set_yticklabels([])
 
-    # Create Start and Reset buttons
     start_button_ax = plt.axes([0.5, 0.01, 0.1, 0.05])
 
     start_button = Button(start_button_ax, 'Start')
